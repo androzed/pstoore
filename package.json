@@ -1,12 +1,14 @@
 {
-  "name": "pstore",
+  "name": "google-play-store-scraper",
   "version": "1.0.0",
+  "description": "A web scraper for Google Play Store app details",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^10.0.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
 }
