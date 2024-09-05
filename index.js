@@ -52,7 +52,6 @@ function cleanHTML(html) {
   const $ = cheerio.load(html);
 
   $('style').remove();
-  $('script').remove();
   $('link').remove();
   $('meta').remove();
   $('*').removeAttr('style');
